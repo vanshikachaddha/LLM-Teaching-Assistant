@@ -56,9 +56,9 @@ class ChatBot():
         return messages[0].content[0].text.value
 
 
-chatbot = ChatBot()
+#chatbot = ChatBot()
 
-print(chatbot.chat_helper("Summarize the causes of the Cold War."))
-print(chatbot.chat_helper("Create a 5-question quiz about photosynthesis."))
-print(chatbot.chat_helper("Proofread this paragraph: 'Their going to the park tommorow.'"))
-print(chatbot.chat_helper("Can you be more specific about the mistake"))
+#print(chatbot.chat_helper("Summarize the causes of the Cold War."))
+#print(chatbot.chat_helper("Create a 5-question quiz about photosynthesis."))
+#print(chatbot.chat_helper("Proofread this paragraph: 'Their going to the park tommorow.'"))
+#print(chatbot.chat_helper("Can you be more specific about the mistake"))
