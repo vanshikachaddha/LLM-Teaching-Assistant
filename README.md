@@ -1,4 +1,4 @@
-# AutoTeacher AI 🧠📄
+# AIProf 🧠📄
 
 AutoTeacher AI is a document and inquiry assistant built with FastAPI, OpenAI's Assistant API, and a simple frontend. It supports analyzing documents, sending custom prompts, and interacting with multiple uploaded files — all through a REST API or a web interface.
 
