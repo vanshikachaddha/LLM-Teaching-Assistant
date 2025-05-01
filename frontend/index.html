@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AutoTeacher AI - Simple Frontend</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        input, textarea, button {
+            width: 100%;
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        #response {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 20px;
+            white-space: pre-wrap;
+        }
+    </style>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>AutoTeacher AI</h1>
+
+    <h2>Create Assistant</h2>
+    <input type="text" id="assistantType" placeholder="Enter assistant type (inquiry/document)">
+    <input type="text" id="filenames" placeholder="Enter comma-separated filenames (e.g., test1.pdf,test2.pdf)">
+    <button onclick="createAssistant()">Create Assistant</button>
+
+    <h2>Send Prompt</h2>
+    <input type="text" id="assistantId" placeholder="Enter Assistant ID">
+    <textarea id="prompt" placeholder="Enter your prompt here..."></textarea>
+    <button onclick="sendPrompt()">Send Prompt</button>
+
+    <div id="response"></div>
+</body>
+</html>

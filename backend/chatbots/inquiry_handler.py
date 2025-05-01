@@ -1,7 +1,8 @@
 from openai import OpenAI
 from sk import my_sk
+import os
 
-client = OpenAI(api_key= my_sk)
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 class ChatBot():
 
