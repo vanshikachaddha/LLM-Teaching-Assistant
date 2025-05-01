@@ -90,4 +90,4 @@ docker run -d -p 8000:8000 -e OPENAI_API_KEY=sk-... fastapi-app
 - [OpenAI Assistants API](https://platform.openai.com/docs/assistants/overview)
 - [Docker](https://www.docker.com/)
 - [GitHub Actions](https://docs.github.com/en/actions)
-```
+
