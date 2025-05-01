@@ -1,5 +1,4 @@
 from openai import OpenAI
-from sk import my_sk
 from openai.types.beta.threads.message_create_params import (
     Attachment,
     AttachmentToolFileSearch,
