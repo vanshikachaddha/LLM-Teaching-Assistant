@@ -37,11 +37,11 @@ jobs:
           fastapi-app
         sleep 5
 
+    - name: Debug container logs
+      run: docker exec app cat /tmp/log.txt || echo "No log file found"
+
     - name: Test endpoint (GET /docs)
       run: curl --fail http://localhost:8000/docs
 
     - name: Cleanup container
       run: docker rm -f app
-    
-    - name: Debug container logs
-      run: docker exec app cat /tmp/log.txt
